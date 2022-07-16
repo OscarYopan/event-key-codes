@@ -19,3 +19,22 @@ body{
   height: 100vh;
   overflow: hidden;
 }
+
+.container {
+  border: 2 solid black;
+}
+
+.key-form {
+  border: 1 solid black;
+  width: 40rem;
+  height: 20rem;
+  background-color: blue;
+}
+
+.data {
+  border: 1 solid black;
+  width: 6rem;
+  height: 6rem;
+  background-color: red;
+  margin: .2rem;
+}
