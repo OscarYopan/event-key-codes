@@ -13,7 +13,6 @@ html{
 
 body{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -32,6 +31,9 @@ body{
 }
 
 .data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1 solid black;
   width: 6rem;
   height: 6rem;
