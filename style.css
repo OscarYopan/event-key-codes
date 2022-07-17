@@ -20,6 +20,29 @@ body, .container, .data {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.btn {
+  position: absolute;
+  padding: .5rem;
+  border: none;
+  border-radius: .5rem;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:hover {
+  opacity: 75%;
+}
+
+.container {
+  position: absolute;
 }
 
 .data-box {
@@ -27,11 +50,15 @@ body, .container, .data {
 }
 
 .data{
-  border: 1 solid black;
   width: 12rem;
   height: 5rem;
-  background-color: lightgray;
+  background-color: lightgrey;
   margin: 1rem;
   color: black;
+  font-size: 1.6rem;
   border-radius: 1rem;
+}
+
+.active {
+
 }
