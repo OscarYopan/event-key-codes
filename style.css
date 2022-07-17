@@ -30,7 +30,7 @@ body, .container, .data {
   color: white;
   font-size: 1.6rem;
   cursor: pointer;
-  width: 26rem;
+  min-width: 26rem;
 }
 
 .btn:active {
