@@ -60,5 +60,6 @@ body, .container, .data {
 }
 
 .active {
-
+  z-index: -1;
+  opacity: 0%;
 }
