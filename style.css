@@ -25,12 +25,13 @@ body, .container, .data {
 
 .btn {
   position: absolute;
-  padding: .5rem;
+  padding: 1rem;
   border: none;
   border-radius: .5rem;
   background-color: grey;
   color: white;
   cursor: pointer;
+  width: 25rem;
 }
 
 .btn:active {
