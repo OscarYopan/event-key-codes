@@ -12,31 +12,26 @@ html{
 }
 
 body{
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
   overflow: hidden;
 }
 
-.container {
-  border: 2 solid black;
-}
-
-.key-form {
-  border: 1 solid black;
-  width: 40rem;
-  height: 20rem;
-  background-color: blue;
-}
-
-.data {
+body, .container, .data {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.data-box {
+  text-align: center;
+}
+
+.data{
   border: 1 solid black;
-  width: 6rem;
-  height: 6rem;
-  background-color: red;
-  margin: .2rem;
+  width: 12rem;
+  height: 5rem;
+  background-color: lightgray;
+  margin: 1rem;
+  color: black;
+  border-radius: 1rem;
 }
