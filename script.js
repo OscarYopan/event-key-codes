@@ -13,8 +13,8 @@ btnActive.addEventListener('click', () =>{
   eventCode.innerHTML = `${Keyboard}`
 })
 
-key.addEventListener('KeyboardEvent()', () => {
-  key.innerHTML = `${Keyboard}`
-  keyCode.innerHTML = `${Keyboard}`
-  eventCode.innerHTML = `${Keyboard}`
-})
+// key.addEventListener('KeyboardEvent()', () => {
+//   key.innerHTML = `${Keyboard}`
+//   keyCode.innerHTML = `${Keyboard}`
+//   eventCode.innerHTML = `${Keyboard}`
+// })

@@ -1,13 +1,11 @@
-/*Reset*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*Default*/
 html{
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 62.5%;
 }
 
@@ -30,8 +28,9 @@ body, .container, .data {
   border-radius: .5rem;
   background-color: grey;
   color: white;
+  font-size: 1.6rem;
   cursor: pointer;
-  width: 25rem;
+  width: 26rem;
 }
 
 .btn:active {
@@ -55,7 +54,6 @@ body, .container, .data {
   height: 5rem;
   background-color: lightgrey;
   margin: 1rem;
-  color: black;
   font-size: 1.6rem;
   border-radius: 1rem;
 }
