@@ -18,7 +18,6 @@ body, .container, .data {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .btn {
@@ -41,10 +40,6 @@ body, .container, .data {
   opacity: 75%;
 }
 
-.container {
-  position: absolute;
-}
-
 .data-box {
   text-align: center;
 }
@@ -61,4 +56,5 @@ body, .container, .data {
 .active {
   z-index: -1;
   opacity: 0%;
+  visibility: hidden;
 }
