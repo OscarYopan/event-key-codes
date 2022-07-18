@@ -13,7 +13,7 @@ body{
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-color: rgb(250, 212, 218);
+  background-color: rgb(248, 220, 224);
 }
 
 body, .container, .data {
@@ -32,14 +32,6 @@ body, .container, .data {
   font-size: 1.6rem;
   cursor: pointer;
   min-width: 26rem;
-}
-
-.btn:active {
-  transform: scale(0.98);
-}
-
-.btn:hover {
-  opacity: 75%;
 }
 
 .box {
