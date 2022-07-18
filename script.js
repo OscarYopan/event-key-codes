@@ -1,28 +1,15 @@
-const dataBoxActive = document.querySelectorAll('.data-box')
+const BoxActive = document.querySelectorAll('.box')
 const btnActive = document.querySelector('.btn')
-let key = document.querySelector('#key')
-let keyCode = document.querySelector('#key-code')
-let eventCode = document.querySelector('#event-code')
-let Keyboard = '--'
+let k = document.querySelector('#key')
+let kCode = document.querySelector('#key-code')
+let eCode = document.querySelector('#event-code')
 
 window.addEventListener('keydown', (event) => {
-  dataBoxActive.classList.remove('active')
+  BoxActive.forEach(box => {
+    box.classList.remove('active')
+  });
   btnActive.classList.add('active')
-  key.innerHTML = `${event.key === ' ' ? 'Space' : event.key}`
-  keyCode.innerHTML = `${event.keyCode}`
-  eventCode.innerHTML = `${event.eventCode}`
+  k.innerHTML = `${event.key === ' ' ? 'Space' : event.key}`
+  kCode.innerHTML = `${event.keyCode}`
+  eCode.innerHTML = `${event.code}`
 })
-
-// btnActive.addEventListener('click', (event) =>{
-//   dataBoxActive.classList.remove('active')
-//   btnActive.classList.add('active')
-//   key.innerHTML = `${event.key === ' ' ? 'Space' : event.key}`
-//   keyCode.innerHTML = `${event.keyCode}`
-//   eventCode.innerHTML = `${event.eventCode}`
-// })
-
-// key.addEventListener('KeyboardEvent()', () => {
-//   key.innerHTML = `${Keyboard}`
-//   keyCode.innerHTML = `${Keyboard}`
-//   eventCode.innerHTML = `${Keyboard}`
-// })
